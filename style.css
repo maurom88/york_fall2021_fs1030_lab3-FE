@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box
+}
+
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: monospace;
+  line-height: 1.6;
+  color: rgb(41, 39, 39);
+  background: rgb(158, 158, 158);
+}
+
+main {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+h2 {
+  background-color: #000;
+  color: #fff;
+  text-align: center;
+  margin-top: 0;
+  padding: 8px;
+}
+
+p {
+  text-align: center;
+}
+
+.card {
+  flex: 0 1 30%;
+  margin: 1rem;
+  background: white;
+}
